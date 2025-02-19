@@ -18,7 +18,7 @@ long long expectedSum(long long n){
     return n*(n+ 1)/2;
 }
 
-long long missingNumber(int n){
+int missingNumber(int n){
     return expectedSum(n) - observedSum(n);
 }
 
