@@ -14,7 +14,7 @@ long long observedSum(int n){
     return sum;
 }
 
-long long expectedSum(long long n){
+uint8_t expectedSum(uint8_t n){
     return n*(n+ 1)/2;
 }
 
