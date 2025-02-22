@@ -11,7 +11,6 @@ int main() {
     for(int i = 1;i<=n;i++){
         result = (result * 2)%MOD;
     }
-
     std::cout << result << std::endl;
 
     return 0;
