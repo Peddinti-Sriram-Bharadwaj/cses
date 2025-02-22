@@ -1,0 +1,1 @@
+{"name":"Local: coinPiles","url":"/Users/srirambharadwaj/Documents/cses/coinPiles.cpp","tests":[{"id":1740244756828,"input":"3\n2 1\n2 2\n3 3","output":"YES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/srirambharadwaj/Documents/cses/coinPiles.cpp","group":"local","local":true}
