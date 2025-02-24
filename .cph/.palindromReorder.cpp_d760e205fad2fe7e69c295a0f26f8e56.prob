@@ -1,0 +1,1 @@
+{"name":"Local: palindromReorder","url":"/Users/srirambharadwaj/Documents/cses/palindromReorder.cpp","tests":[{"id":1740404347326,"input":"AAAACACBA","output":"AACABACAA"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/srirambharadwaj/Documents/cses/palindromReorder.cpp","group":"local","local":true}
