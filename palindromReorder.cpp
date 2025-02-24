@@ -2,6 +2,7 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
+#include <deque>
 
 
 std::vector<char> evenChars;
@@ -37,16 +38,18 @@ void parityChars(){
 
 void palindrome(){
     parityChars();
-    std::string palindrome = "";
-    if(!oddChars.empty())  for(int i = 0;i<freq[oddChars[0]];i++) palindrome.push_back(oddChars[0]);
+    std::deque<char> palindromeDeque ;
+    if(!oddChars.empty())  for(int i = 0;i<freq[oddChars[0]];i++) palindromeDeque.push_back(oddChars[0]);
 
     for (char c : evenChars){
         for(int i = 0;i<freq[c]/2;i++){
-            palindrome.insert(0,1,c);
-            palindrome.push_back(c);
+            palindromeDeque.push_front(c);
+            palindromeDeque.push_back(c);
         }
     }
-    std::cout << palindrome;
+
+    for(char c : palindromeDeque) std::cout << c;
+    std::cout << std::endl;
 
 
 }
