@@ -20,7 +20,6 @@ bool isPalindDromePossible(){
 
 }
 
-
 void buildMap(std::string s){
     int n = s.size();
     for(char c : s){
@@ -29,7 +28,7 @@ void buildMap(std::string s){
 
 }
 
-void parityChars(){
+void makeParityChars(){
     for (auto x : freq){
         if (x.second%2) oddChars.push_back(x.first);
         else evenChars.push_back(x.first);
@@ -37,7 +36,7 @@ void parityChars(){
 }
 
 void palindrome(){
-    parityChars();
+    makeParityChars();
     std::deque<char> palindromeDeque ;
     if(!oddChars.empty())  for(int i = 0;i<freq[oddChars[0]];i++) palindromeDeque.push_back(oddChars[0]);
 
