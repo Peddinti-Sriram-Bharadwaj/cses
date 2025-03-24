@@ -1,0 +1,1 @@
+{"name":"Local: apartments","url":"/Users/srirambharadwaj/Documents/cses/apartments.cpp","tests":[{"id":1742317633070,"input":"4 3 5\n60 45 80 60\n30 60 75","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/srirambharadwaj/Documents/cses/apartments.cpp","group":"local","local":true}
