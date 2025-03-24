@@ -1,0 +1,1 @@
+{"name":"Local: concertTickets","url":"/Users/srirambharadwaj/Documents/cses/concertTickets.cpp","tests":[{"id":1742821741879,"input":"5 3\n5 3 7 8 5\n4 8 3","output":"3\n8\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/srirambharadwaj/Documents/cses/concertTickets.cpp","group":"local","local":true}
