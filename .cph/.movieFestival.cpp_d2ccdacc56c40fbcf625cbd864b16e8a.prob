@@ -1,0 +1,1 @@
+{"name":"Local: movieFestival","url":"/Users/srirambharadwaj/Documents/cses/movieFestival.cpp","tests":[{"id":1742917198125,"input":"3\n3 5\n4 9\n5 8","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/srirambharadwaj/Documents/cses/movieFestival.cpp","group":"local","local":true}
