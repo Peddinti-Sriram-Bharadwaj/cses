@@ -22,6 +22,5 @@ int main(){
 
     std::cout << res;
     
-
     return 0;
 }
